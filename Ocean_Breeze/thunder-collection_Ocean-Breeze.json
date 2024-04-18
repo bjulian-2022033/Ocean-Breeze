@@ -1,0 +1,287 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Ocean-Breeze",
+    "dateExported": "2024-04-18T07:06:25.839Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Hotel",
+            "containerId": "",
+            "created": "2024-04-18T04:48:05.542Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "Room ",
+            "containerId": "",
+            "created": "2024-04-18T04:50:05.679Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "352bb05d-1c36-49c0-8214-6ba7f11d3a7b",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Save",
+            "url": "/hotel/save",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-18T04:48:05.544Z",
+            "modified": "2024-04-18T04:48:05.544Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ocean Breeze"
+                    },
+                    {
+                        "name": "address",
+                        "value": "3165 Harrison Ct"
+                    },
+                    {
+                        "name": "stars",
+                        "value": "4"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "381 585 5194"
+                    },
+                    {
+                        "name": "email",
+                        "value": "oceanBreeze@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "008c9319-a405-4b6e-a31e-fc443b462105",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Update",
+            "url": "/hotel/update/661e36a2d164f6f5f06c3726",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-18T04:48:05.545Z",
+            "modified": "2024-04-18T04:48:05.545Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone",
+                        "value": "5486 5578"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "daeac882-2399-4d7a-8352-d2d4524c6544",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "List",
+            "url": "/hotel/list",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-18T04:48:05.546Z",
+            "modified": "2024-04-18T04:48:05.546Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fc1229be-2113-4e3b-b7b9-df4853ea2523",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Delete",
+            "url": "/hotel/delete/661e41802585c6099e9ed922",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-18T04:48:05.547Z",
+            "modified": "2024-04-18T04:48:05.547Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "78ce0564-f8b1-44b9-9255-681f0c46bd65",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "AddRoom",
+            "url": "/room/addRoom",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-18T05:08:40.016Z",
+            "modified": "2024-04-18T07:02:45.244Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "numberRoom",
+                        "value": "1"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Cuenta con TV, Jacuzzi"
+                    },
+                    {
+                        "name": "ability",
+                        "value": "2"
+                    },
+                    {
+                        "name": "price",
+                        "value": "320"
+                    },
+                    {
+                        "name": "state",
+                        "value": "Ocupada"
+                    },
+                    {
+                        "name": "availableDate",
+                        "value": "2024-04-29"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "6620aa6a4d79ca526271119e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "05142f2c-d20c-4b86-94d6-67931150a7ff",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRooms",
+            "url": "/room/listRooms",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-04-18T05:22:45.083Z",
+            "modified": "2024-04-18T05:23:08.135Z",
+            "headers": []
+        },
+        {
+            "_id": "3133eb6c-3246-4757-b292-1b283e9a7a81",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "UpdateRoom",
+            "url": "/room/update/6620aba44d79ca52627111a3",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-04-18T05:23:44.332Z",
+            "modified": "2024-04-18T05:38:49.063Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "numberRoom",
+                        "value": "32"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Cuenta con AC"
+                    },
+                    {
+                        "name": "ability",
+                        "value": "2"
+                    },
+                    {
+                        "name": "price",
+                        "value": "200"
+                    },
+                    {
+                        "name": "state",
+                        "value": "Disponible"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "201d3b05-d6c7-4f41-a42f-0bd8c6f6e86e",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "DeleteRoom",
+            "url": "/room/delete/6620b4c5e425a4746e59baac",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-04-18T05:41:18.753Z",
+            "modified": "2024-04-18T05:51:13.378Z",
+            "headers": []
+        },
+        {
+            "_id": "ad2594dd-9cea-400f-8ea9-9730ca99e389",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "SearchNumberRoom",
+            "url": "/room/search",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-04-18T06:04:03.373Z",
+            "modified": "2024-04-18T06:44:21.037Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "6"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "452bb991-9e75-46db-aabc-62c593b3a07b",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsDisponibles",
+            "url": "/room/listRoomsDisponibles",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-04-18T06:12:53.106Z",
+            "modified": "2024-04-18T06:18:53.948Z",
+            "headers": []
+        },
+        {
+            "_id": "6bdc62ca-52a9-49ad-a717-43afcf8cedba",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsOcupadas",
+            "url": "/room/listRoomsOcupadas",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-04-18T06:21:43.490Z",
+            "modified": "2024-04-18T06:21:52.341Z",
+            "headers": []
+        },
+        {
+            "_id": "ae25ce23-0695-4425-ada5-ac94bf9d76db",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsMantenimiento",
+            "url": "/room/listRoomsMantenimiento",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-04-18T06:38:09.291Z",
+            "modified": "2024-04-18T06:38:18.747Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    }
+}
