@@ -3,6 +3,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import morgan from 'morgan'
 import { config } from 'dotenv'
+import userRoutes from '../src/User/user.routes.js'
 
 const app = express()
 config()
@@ -16,7 +17,7 @@ app.use(helmet())
 app.use(morgan('dev')) 
 
 //Declaración de rutas
-
+app.use(userRoutes)
 
 
 //Levantar el servidor
