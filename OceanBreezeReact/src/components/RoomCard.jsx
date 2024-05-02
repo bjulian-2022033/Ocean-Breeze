@@ -10,27 +10,19 @@ export const RoomCard = () => {
         <ul>
           <li>
             <img src={room} alt='room image' className='room-image'/>
-            <div className='texto'>
-              <h2>Habitación Tanya</h2>
-            </div>
+            
           </li>
           <li>
             <img src={room1} alt='room image' className='room-image'/>
-            <div className='texto'>
-              <h2>Habitación Helen</h2>
-            </div>
+            
           </li>
           <li>
             <img src={room2} alt='room image' className='room-image'/>
-            <div className='texto'>
-              <h2>Habitación Andrea</h2>
-            </div>
+            
           </li>
           <li>
             <img src={room3} alt='room image' className='room-image'/>
-            <div className='texto'>
-              <h2>Habitación Diana</h2>
-            </div>
+            
           </li>
         </ul>
       </div>

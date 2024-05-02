@@ -1,12 +1,12 @@
 *{
-    margin: 0;
+   
     font-family: "Poppins", sans-serif;
     font-weight: bold;
 }
 .Navbar{
     min-height: 90px;
-    width: 98.43vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 97.5vw;
+    background-color: rgba(18, 79, 118, 0.4);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,8 @@
     position: absolute;
     z-index: -1;
     filter: brightness(0.4);
+    width: 99vw;
+    height: 100vh;
 }
 
 .ul-options{
@@ -77,23 +79,12 @@
 .room-card-content{
     width: 40vw;
     max-height: 70vh;
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(18, 79, 118, 0.4);
     position: absolute;
     z-index: 0;
     margin-top: 8rem;
     margin-left: 10rem;
     border-radius: 15px;
-}
-.texto{
-    position: absolute;
-    text-align: center;
-    padding: 0 250px;
-    top: 250px;
-    color: #fff;
-}
-.texto h2{
-    font-size: 445px;
-    margin-bottom: 35px;
 }
 .slider-box{
     width: 98%;
@@ -117,6 +108,7 @@
 
 .room-image{
     width: 100%;
+    height: 400px;
 }
 @keyframes slide{
     0%{
@@ -144,13 +136,14 @@
 }
 .container-options{
     width: 100%;
-    height: 20%;
+    height: 40%;
     background-color: rgba(0, 0, 0,0.1);
 }
 .btn-shine{
     text-decoration: none;
     color: #ffffff9b;
     padding-left:70%;
+    font-size: 25px;
     transition: text-shadow 0.3s ease;
 }
 .btn-shine:hover{
@@ -158,14 +151,4 @@
     text-shadow: 0 0 2px white, 
     0 0 10px white, 
     0 0 10px white;
-}
-.dashboard-content{
-    width: 30vw;
-    max-height: 90vh;
-    background-color: rgba(0, 0, 0,0.6);
-    position: absolute;
-    z-index: 0;
-    margin-top: 8rem;
-    margin-left: 50rem;
-    border-radius: 15px;
 }
