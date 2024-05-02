@@ -3,6 +3,13 @@ import cors from 'cors'
 import helmet from 'helmet'
 import morgan from 'morgan'
 import { config } from 'dotenv'
+import userRoutes from '../src/User/user.routes.js'
+import hotelRoutes from '../src/Hotel/hotel.routes.js'
+import roomRoutes from '../src/Room/room.routes.js'
+import serviceRoutes from '../src/Service/service.routes.js'
+import eventTypeRoutes from '../src/EventType/eventType.routes.js'
+import reservationRoutes from '../src/Reservation/reservation.routes.js'
+import eventRoutes from '../src/Event/event.routes.js'
 
 const app = express()
 config()
@@ -16,7 +23,13 @@ app.use(helmet())
 app.use(morgan('dev')) 
 
 //Declaración de rutas
-
+app.use(userRoutes)
+app.use('/hotel', hotelRoutes)
+app.use('/room', roomRoutes)
+app.use('/service', serviceRoutes)
+app.use('/eventType', eventTypeRoutes)
+app.use('/reservation',reservationRoutes)
+app.use('/event', eventRoutes)
 
 
 //Levantar el servidor
