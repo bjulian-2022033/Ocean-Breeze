@@ -26,9 +26,6 @@ export const RoomCard = () => {
           </li>
         </ul>
       </div>
-      <div className='container-options'>
-        <a href="#" className="btn-shine">Mas información</a>
-      </div>
     </div>
   )
 }
