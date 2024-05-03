@@ -7,6 +7,7 @@ import morgan from 'morgan'
 import { config } from 'dotenv'
 import { dbConnection } from './mongo.js'
 import hotelRoutes from '../src/Hotel/hotel.routes.js'
+import qualificationRoutes from '../src/Qualification/qualification.routes.js'
 
 const app = express()
 config()
@@ -19,6 +20,7 @@ app.use(helmet())
 app.use(morgan('dev'))
 
 app.use('/hotel', hotelRoutes)
+app.use('/qualification', qualificationRoutes)
 
 export const initServer = ()=>{
     app.listen(port)
