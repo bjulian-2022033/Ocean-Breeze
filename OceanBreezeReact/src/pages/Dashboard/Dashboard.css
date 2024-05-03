@@ -181,6 +181,7 @@
     text-align: center;
     flex: 1;
     overflow: auto;
+    color: rgb(255,255,255);
 }
 .welcome-box h1{
     border-bottom: .7vw solid #fff;
@@ -230,7 +231,8 @@
 .room-card{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 5px;
 }
 .text-container{
     flex: 1;
@@ -242,8 +244,22 @@
     max-height: 100%;
     overflow: hidden;
     margin-bottom: 10px;
+    position: relative;
 }
-.information-box{
-    position: absolute;
-    transform: translate(70%) translateY(300%)
+
+.information-button{
+    writing-mode: vertical-lr;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    transition: 0.3s;
+    margin-left: 4px;
+}
+.information-button:hover{
+    color: #fff;
+    text-shadow: 0 0 2px white, 
+    0 0 10px white, 
+    0 0 10px white;
+    background-color: #000;
 }

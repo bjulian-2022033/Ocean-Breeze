@@ -11,9 +11,7 @@ export const Card = () => {
             <p>Descansa en esta habitación con temática marina, donde podrás escuchar el suave murmullo de las olas desde tu ventana.</p>
         </div>
         <img src={room2} alt='imagen de habitacion'/>
-        <div className='information-box'>
-            <a><button className='information-button'>Mas Información</button></a>
-        </div>
+          <a><button className='information-button'>Mas Información</button></a>
     </div>
   )
 }
