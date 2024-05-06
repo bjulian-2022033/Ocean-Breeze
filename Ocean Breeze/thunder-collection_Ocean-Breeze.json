@@ -1,0 +1,583 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ocean-Breeze",
+    "collectionId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+    "dateExported": "2024-05-06T03:10:37.570Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Hotel",
+            "containerId": "",
+            "created": "2024-04-18T04:48:05.542Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "Room ",
+            "containerId": "",
+            "created": "2024-04-18T04:50:05.679Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "6eb0f1dd-a551-4857-80ba-7fe1d6ec5339",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-04-22T05:07:14.791Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "360c41bb-a01e-4886-a706-ea0c0df3392d",
+            "name": "Event",
+            "containerId": "",
+            "created": "2024-05-03T05:16:47.564Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "7f2c5dbf-eedd-449a-9e64-bd0a11810bb5",
+            "name": "Event Type",
+            "containerId": "",
+            "created": "2024-05-03T05:20:37.025Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "01717c6b-3a88-46a8-8a55-c00b34f50c85",
+            "name": "Reservation",
+            "containerId": "",
+            "created": "2024-05-03T05:22:28.560Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "4537b7fc-a489-4520-a84c-155aecc7b17b",
+            "name": "Services",
+            "containerId": "",
+            "created": "2024-05-03T05:24:39.457Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "363cacb6-e40c-4880-823c-7f109325a29e",
+            "name": "Factura",
+            "containerId": "",
+            "created": "2024-05-03T06:42:22.899Z",
+            "sortNum": 80000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "352bb05d-1c36-49c0-8214-6ba7f11d3a7b",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Save",
+            "url": "/hotel/save",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-18T04:48:05.544Z",
+            "modified": "2024-04-18T04:48:05.544Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ocean Breeze"
+                    },
+                    {
+                        "name": "address",
+                        "value": "3165 Harrison Ct"
+                    },
+                    {
+                        "name": "stars",
+                        "value": "4"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "381 585 5194"
+                    },
+                    {
+                        "name": "email",
+                        "value": "oceanBreeze@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "008c9319-a405-4b6e-a31e-fc443b462105",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Update",
+            "url": "/hotel/update/661e36a2d164f6f5f06c3726",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-18T04:48:05.545Z",
+            "modified": "2024-04-18T04:48:05.545Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone",
+                        "value": "5486 5578"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "daeac882-2399-4d7a-8352-d2d4524c6544",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "List",
+            "url": "/hotel/list",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-18T04:48:05.546Z",
+            "modified": "2024-04-18T04:48:05.546Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fc1229be-2113-4e3b-b7b9-df4853ea2523",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "e38150dc-3048-4c7d-a466-96d1823e4fa9",
+            "name": "Delete",
+            "url": "/hotel/delete/661e41802585c6099e9ed922",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-18T04:48:05.547Z",
+            "modified": "2024-04-18T04:48:05.547Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "78ce0564-f8b1-44b9-9255-681f0c46bd65",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "AddRoom",
+            "url": "/room/addRoom",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-18T05:08:40.016Z",
+            "modified": "2024-04-18T07:02:45.244Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "numberRoom",
+                        "value": "1"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Cuenta con TV, Jacuzzi"
+                    },
+                    {
+                        "name": "ability",
+                        "value": "2"
+                    },
+                    {
+                        "name": "price",
+                        "value": "320"
+                    },
+                    {
+                        "name": "state",
+                        "value": "Ocupada"
+                    },
+                    {
+                        "name": "availableDate",
+                        "value": "2024-04-29"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "6620aa6a4d79ca526271119e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "05142f2c-d20c-4b86-94d6-67931150a7ff",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRooms",
+            "url": "/room/listRooms",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-04-18T05:22:45.083Z",
+            "modified": "2024-04-18T05:23:08.135Z",
+            "headers": []
+        },
+        {
+            "_id": "3133eb6c-3246-4757-b292-1b283e9a7a81",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "UpdateRoom",
+            "url": "/room/update/6620aba44d79ca52627111a3",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-04-18T05:23:44.332Z",
+            "modified": "2024-04-18T05:38:49.063Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "numberRoom",
+                        "value": "32"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Cuenta con AC"
+                    },
+                    {
+                        "name": "ability",
+                        "value": "2"
+                    },
+                    {
+                        "name": "price",
+                        "value": "200"
+                    },
+                    {
+                        "name": "state",
+                        "value": "Disponible"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "201d3b05-d6c7-4f41-a42f-0bd8c6f6e86e",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "DeleteRoom",
+            "url": "/room/delete/6620b4c5e425a4746e59baac",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-04-18T05:41:18.753Z",
+            "modified": "2024-04-18T05:51:13.378Z",
+            "headers": []
+        },
+        {
+            "_id": "ad2594dd-9cea-400f-8ea9-9730ca99e389",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "SearchNumberRoom",
+            "url": "/room/search",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-04-18T06:04:03.373Z",
+            "modified": "2024-04-18T06:44:21.037Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "6"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "452bb991-9e75-46db-aabc-62c593b3a07b",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsDisponibles",
+            "url": "/room/listRoomsDisponibles",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-04-18T06:12:53.106Z",
+            "modified": "2024-04-18T06:18:53.948Z",
+            "headers": []
+        },
+        {
+            "_id": "6bdc62ca-52a9-49ad-a717-43afcf8cedba",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsOcupadas",
+            "url": "/room/listRoomsOcupadas",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-04-18T06:21:43.490Z",
+            "modified": "2024-04-18T06:21:52.341Z",
+            "headers": []
+        },
+        {
+            "_id": "ae25ce23-0695-4425-ada5-ac94bf9d76db",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "dd2a22f6-2436-42dd-ab62-786b82362d66",
+            "name": "ListRoomsMantenimiento",
+            "url": "/room/listRoomsMantenimiento",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-04-18T06:38:09.291Z",
+            "modified": "2024-04-18T06:38:18.747Z",
+            "headers": []
+        },
+        {
+            "_id": "fcf75fb4-8860-4908-b92f-7d26545fa60c",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "6eb0f1dd-a551-4857-80ba-7fe1d6ec5339",
+            "name": "Register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-04-22T05:07:25.086Z",
+            "modified": "2024-05-05T06:55:14.663Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Hola"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Lopezm"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Misael@kinal.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "mlopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "31d21aaf-cb95-4b24-bdf9-d1c26d273e1b",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "6eb0f1dd-a551-4857-80ba-7fe1d6ec5339",
+            "name": "Login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2024-04-22T05:52:00.646Z",
+            "modified": "2024-05-05T06:50:29.257Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "hlopez@kinal.com",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "username",
+                        "value": "hlopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "lopez"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "69866b86-51bf-43fc-b55d-3326ba6e51a6",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "360c41bb-a01e-4886-a706-ea0c0df3392d",
+            "name": "Add",
+            "url": "/event/addEvent",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-05-03T05:16:59.977Z",
+            "modified": "2024-05-03T05:21:56.166Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameEvent",
+                        "value": "Hola"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Hola es un evento"
+                    },
+                    {
+                        "name": "price",
+                        "value": "700"
+                    },
+                    {
+                        "name": "eventType",
+                        "value": "6634745ca5589817b17aa8dd"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "6620aa6a4d79ca526271119e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0fa99c5f-2e2e-477e-ac94-f14e6d89e4d5",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "7f2c5dbf-eedd-449a-9e64-bd0a11810bb5",
+            "name": "Add",
+            "url": "/eventType/saveEventType",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2024-05-03T05:20:43.009Z",
+            "modified": "2024-05-03T05:21:32.832Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "eventType",
+                        "value": "Es una fiesta"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "ef307d8f-9f3c-48d7-9d94-5495f34aff12",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "01717c6b-3a88-46a8-8a55-c00b34f50c85",
+            "name": "Add",
+            "url": "/reservation/addReservation",
+            "method": "POST",
+            "sortNum": 200000,
+            "created": "2024-05-03T05:22:36.656Z",
+            "modified": "2024-05-03T10:20:48.073Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "room",
+                        "value": "6620c0d045397466e126e8ba"
+                    },
+                    {
+                        "name": "startDate",
+                        "value": "2024-05-02"
+                    },
+                    {
+                        "name": "endDate",
+                        "value": "2024-05-05"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "b1e0d44c-91e5-40f7-8302-217b1192b538",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "4537b7fc-a489-4520-a84c-155aecc7b17b",
+            "name": "Add",
+            "url": "/service/addService",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2024-05-03T05:24:46.561Z",
+            "modified": "2024-05-04T05:28:38.892Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Msajess"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Se dan masajes de espalda"
+                    },
+                    {
+                        "name": "price",
+                        "value": "50"
+                    },
+                    {
+                        "name": "room",
+                        "value": "6620c0d045397466e126e8ba"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "568225d1-5a33-4756-b656-6054803795e4",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "363cacb6-e40c-4880-823c-7f109325a29e",
+            "name": "Crear",
+            "url": "/factura/crearFactura",
+            "method": "POST",
+            "sortNum": 220000,
+            "created": "2024-05-03T06:42:35.610Z",
+            "modified": "2024-05-04T05:35:58.517Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "event",
+                        "value": "66347474a5589817b17aa8df"
+                    },
+                    {
+                        "name": "room",
+                        "value": "6620c0d045397466e126e8ba"
+                    },
+                    {
+                        "name": "reservation",
+                        "value": "663474fba5589817b17aa8e1"
+                    },
+                    {
+                        "name": "services",
+                        "value": "66349f5dbe142d04682f5529",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "services",
+                        "value": "6634756ca5589817b17aa8e3"
+                    },
+                    {
+                        "name": "services",
+                        "value": "6635c7862ce03979c7003561"
+                    },
+                    {
+                        "name": "user",
+                        "value": "6625fa6ed4a3283efe3ec91e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e4224c23-0662-4be2-af57-304024154db8",
+            "colId": "1bada282-7769-4e0d-9c8c-a28803e58994",
+            "containerId": "363cacb6-e40c-4880-823c-7f109325a29e",
+            "name": "List",
+            "url": "/factura/listInvoices",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2024-05-03T09:55:14.843Z",
+            "modified": "2024-05-06T02:13:52.311Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    },
+    "ref": "BE80sVu7kEmRzcXItSS2uwZDsSdoai855OoKjSjkUTHT4YUOSwe_TmzSVt7hmdp-wQhCKc7QKCLQAMpwcaS2MQ"
+}
