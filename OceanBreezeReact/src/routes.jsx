@@ -1,13 +1,13 @@
-import { Dashboard } from "./pages/Dashboard/Dashboard";
-import { Auth } from "./pages/Auth/Auth";
+import { Dashboard } from "./pages/Dashboard/Dashboard"
+import { Auth } from "./pages/Auth/Auth.jsx"
 
 export const routes = [
     {
-        path: '/*', 
-        element: <Dashboard/>
+        path: '/auth',
+        element: <Auth />
     },
     {
-        path: '/auth',
-        element: <Auth/>
+        path: '/*',
+        element: <Dashboard />
     }
 ]
