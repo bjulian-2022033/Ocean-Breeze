@@ -76,7 +76,7 @@ export const Login = ({ switchUserhHandler }) => {
         className="user-form"
         onSubmit={handleLogin}
       >
-        <h1>Login</h1>
+        <h1 className="text-welcome">Welcome...</h1>
         <Input
           field='email'
           label='Email'

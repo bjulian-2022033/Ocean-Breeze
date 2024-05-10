@@ -19,6 +19,60 @@
     transform: translate(-50%, -50%);
 }
 
+.user-form h1{
+    border-bottom: 1px solid transparent;
+    overflow: hidden;
+    margin: 10px;
+    animation: textoH1 0.5s linear forwards;
+    text-align: center;
+}
+@keyframes textoH1 {
+    0%{
+        width: 0;
+        height: 0;
+    }
+    30%{
+        width: 50%;
+        height: 0;
+    }
+    50%{
+        width: 95%;
+        height: 0;
+    }
+    75%{
+        width: 95%;
+        height: 35px;
+    }
+    100%{
+        width: 95%;
+        height: 55px;
+    }
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  /* When you change the amount of characters in the h1, you have to change 
+  the with: 14ch and  steps(14, end), if there is 14 characters, put 14, 
+  if there is 20 put 20 */
+  .user-form h2{
+    border-right: .1em solid #fff;
+    width: 69%;
+    text-align: center;
+    margin: 2em 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(13, end),
+                 blink-caret .5s step-end infinite alternate;
+  }
+
 .imgFondo{
     width: 100vw;
     height: 100vh;
@@ -42,6 +96,7 @@
 }
 
 .login-container, .register-container {
+    color: #fff;
     width: 100vw;
     margin: auto;
     border: 1px solid #ccc;

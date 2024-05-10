@@ -3,7 +3,7 @@ import logo from '../assets/img/logoHotel.png'
 export const Navbar = () => {
   return (
     <header className='Navbar'>
-      <a href='#' className="contenedor-logo">
+      <a href='../dashboard' className="contenedor-logo">
         <img className='logo-hotel' src={logo}/>
         <h2>Ocean Breeze</h2>
       </a>

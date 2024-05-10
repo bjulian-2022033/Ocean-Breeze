@@ -1,0 +1,29 @@
+.dashboard-main-admin{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+
+}
+.imgFondo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+.navbar-admin{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(41, 39, 38, 0.7);
+    position: absolute;
+    z-index: 1;
+}
+.box-admin-option{
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    height: 35%;
+    margin: 3%;
+}

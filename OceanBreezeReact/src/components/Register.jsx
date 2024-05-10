@@ -117,9 +117,11 @@ export const Register = ({ switchUserhHandler }) => {
         <div className="register-container">
             <img src={fondoLogin} className="imgFondo"/>
             <form className="user-form" onSubmit={handleRegister}>
+                <h1>Hello</h1>
+                <h2>Do you want an account?</h2>
                 <Input
                     field='name'
-                    label='NAME'
+                    label='Name'
                     type='text'
                     value={formData.name.value}
                     onChangeHandler={onValueChange}
@@ -129,7 +131,7 @@ export const Register = ({ switchUserhHandler }) => {
                 />
                 <Input
                     field='surname'
-                    label='SURNAME'
+                    label='Surname'
                     type='text'
                     value={formData.surname.value}
                     onChangeHandler={onValueChange}
@@ -139,7 +141,7 @@ export const Register = ({ switchUserhHandler }) => {
                 />
                 <Input
                     field='email'
-                    label='EMAIL'
+                    label='Email'
                     type='text'
                     value={formData.email.value}
                     onChangeHandler={onValueChange}
@@ -149,7 +151,7 @@ export const Register = ({ switchUserhHandler }) => {
                 />
                 <Input
                     field='username'
-                    label='USERNAME'
+                    label='Username'
                     type='text'
                     value={formData.username.value}
                     onChangeHandler={onValueChange}
@@ -159,7 +161,7 @@ export const Register = ({ switchUserhHandler }) => {
                 />
                 <Input
                     field='password'
-                    label='PASSWORD'
+                    label='Password'
                     type='password'
                     value={formData.password.value}
                     onChangeHandler={onValueChange}
@@ -169,7 +171,7 @@ export const Register = ({ switchUserhHandler }) => {
                 />
                 <Input
                     field='passwordConfirm'
-                    label='PASSWORD CONFIRMATION'
+                    label='Confirm password'
                     type='password'
                     value={formData.passwordConfirm.value}
                     onChangeHandler={onValueChange}
